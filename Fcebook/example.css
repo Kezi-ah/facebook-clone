@@ -1,0 +1,138 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f0f2f5;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Top Nav */
+    .navbar {
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 16px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .navbar .logo {
+      font-size: 24px;
+      color: #1877f2;
+      font-weight: bold;
+    }
+
+    .navbar input {
+      width: 250px;
+      padding: 6px 12px;
+      border-radius: 20px;
+      border: none;
+      background: #f0f2f5;
+    }
+
+    .navbar-icons {
+      display: flex;
+      gap: 16px;
+      font-size: 20px;
+    }
+
+    /* Main Layout */
+    .container {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    /* Left Sidebar */
+    .sidebar {
+      width: 20%;
+      background: #fff;
+      padding: 16px;
+      border-radius: 8px;
+      height: fit-content;
+    }
+
+    .sidebar ul {
+      list-style: none;
+    }
+
+    .sidebar li {
+      margin: 12px 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+    }
+
+    /* Middle Feed */
+    .feed {
+      width: 55%;
+    }
+
+    .post-box {
+      background: #fff;
+      padding: 16px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .post-box input {
+      width: 100%;
+      border: none;
+      padding: 10px;
+      border-radius: 20px;
+      background: #f0f2f5;
+    }
+
+    .stories {
+      display: flex;
+      gap: 10px;
+      margin: 16px 0;
+    }
+
+    .story {
+      width: 100px;
+      height: 160px;
+      border-radius: 10px;
+      background: #ddd;
+    }
+
+    .post {
+      background: #fff;
+      padding: 16px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    /* Right Sidebar */
+    .rightbar {
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .sponsored, .friend-requests {
+      background: #fff;
+      padding: 16px;
+      border-radius: 8px;
+    }
+
+    .friend-requests button {
+      margin-right: 8px;
+      padding: 6px 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .confirm { background: #1877f2; color: #fff; }
+    .delete { background: #e4e6eb; }
